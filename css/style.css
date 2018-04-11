@@ -1,0 +1,47 @@
+html {
+		margin: 0;
+		padding:0;
+	}
+body {
+	background-image: url("https://raw.githubusercontent.com/zdflower/scatterplotD3/master/landscape-1024.jpg");
+	background-size: cover;
+	margin:0;
+	padding:0;
+}
+
+svg {
+	display:block;
+	position: relative;
+	margin: auto;
+}
+
+.ciclista {
+	font-size: 8pt;
+	text-anchor: initial;
+}
+
+circle.noDoping {
+      fill: purple;
+}
+
+circle.doping {
+      fill: red;
+}
+    
+#plot {
+  border: solid 1px black;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.title{
+  font-size: 18pt;
+}
+
+.axis text {
+  font-family: cursive;
+  font-size: 10pt;
+}
+
+.label {
+  font-size: 16pt;
+}
