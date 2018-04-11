@@ -24,3 +24,5 @@ Dataset: https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/mas
 - [D3 for mere mortals](http://www.recursion.org/d3-for-mere-mortals/)
 - [Let's make a bar chart](https://bost.ocks.org/mike/bar/3/)
 
+## Other
+The background image is from https://pixabay.com/en/landscape-mountains-clouds-natural-1752433/. CC0 Creative Commons license.
