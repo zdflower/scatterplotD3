@@ -5,13 +5,32 @@ Data visualization with D3: Scatterplot
 
 See my scatterplot at [https://codepen.io/zdflower/full/JLzwPw/](https://codepen.io/zdflower/full/JLzwPw/)
 
+This one passes the user stories from the betafreecodecamp.org challenge: [https://codepen.io/zdflower/pen/zWVNPB](https://codepen.io/zdflower/pen/zWVNPB)
+
+Dataset: https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/cyclist-data.json
+
 Free Code Camp Project : [https://www.freecodecamp.org/challenges/visualize-data-with-a-scatterplot-graph](https://www.freecodecamp.org/challenges/visualize-data-with-a-scatterplot-graph)
     
 ## User stories
 - [x] I can see performance time visualized in a scatterplot graph.
-- [ ] I can mouse over a plot to see a tooltip with additional details.
+- [x] I can mouse over a plot to see a tooltip with additional details.
 
-Dataset: https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/cyclist-data.json
+## User stories from beta.freecodecamp.org
+- [x] I can see a title element that has a corresponding id="title".
+- [x] I can see an x-axis that has a corresponding id="x-axis".
+- [x] I can see a y-axis that has a corresponding id="y-axis".
+- [x] I can see dots, that each have a class of dot, which represent the data being plotted.
+- [x] Each dot should have the properties data-xvalue and data-yvalue containing their corresponding x and y values.
+- [x] The data-xvalue and data-yvalue of each dot should be within the range of the actual data and in the correct data format. For data-xvalue, integers (full years) or Date objects are acceptable for test evaluation. For data-yvalue (minutes), use Date objects.
+- [x] The data-xvalue and its corresponding dot should align with the corresponding point/value on the x-axis.
+- [x] The data-yvalue and its corresponding dot should align with the corresponding point/value on the y-axis.
+- [x] I can see multiple tick labels on the y-axis with %M:%S time format.
+- [x] I can see multiple tick labels on the x-axis that show the year.
+- [x] I can see that the range of the x-axis labels are within the range of the actual x-axis data.
+- [x] I can see that the range of the y-axis labels are within the range of the actual y-axis data.
+- [x] I can see a legend containing descriptive text that has id="legend".
+- [x] I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
+- [x] My tooltip should have a data-year property that corresponds to the data-xvalue of the active area.
 
 ## D3 Resources
 
